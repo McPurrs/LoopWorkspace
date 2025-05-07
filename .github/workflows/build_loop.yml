@@ -16,6 +16,7 @@ env:
   TARGET_BRANCH: ${{ github.ref_name }} # target branch on fork to be kept in sync, and target branch on upstream to be kept alive (replace with specific branch name if needed)
   ALIVE_BRANCH_MAIN: alive-main
   ALIVE_BRANCH_DEV: alive-dev
+  INSULIN_MODEL_SELECTION_ENABLED: 1 #JJ - adding to enable child 5hr duration 5/7/25
 
 jobs:
   validate:
